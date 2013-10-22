@@ -1,0 +1,15 @@
+jsaccess demo file:
+decrypted OK !
+
+
+To a new file to download:
+
+$ jstore add README.txt 
+Using store "/home/user/code/laurent-tools/jsaccess/jsa/store"
+Enter encryption passphrase
+> jsa
+CREATED file /home/user/code/laurent-tools/jsaccess/jsa/store/af022cd820fdad6cbcac8e15ac565c639a47dab0/065e18a7f246b800242a778a6e8dd07a3321dac6
+UPDATED file /home/user/code/laurent-tools/jsaccess/jsa/store/af022cd820fdad6cbcac8e15ac565c639a47dab0/index.txt
+
+$ jstore rset user@_host:/var/www/htdocs/jsa/    # Only the first time
+$ jstore push

@@ -1,0 +1,4 @@
+Other libs that where used in the past:
+
+[user@code jsa]$ ls old/
+base64.js  cryptojs_3.1.2/  jrencoding.js  jsbase64.js  stream-min.js  uuencode.js

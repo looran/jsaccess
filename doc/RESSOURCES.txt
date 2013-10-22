@@ -1,0 +1,23 @@
+===============================================================================
+Javascript
+
+Filesaver
+https://github.com/eligrey/FileSaver.js
+
+Gibberish AES
+https://github.com/mdp/gibberish-aes
+
+Other crypto, not used
+https://code.google.com/p/crypto-js/#Quick-start_Guide
+http://crypto.stanford.edu/sjcl/
+http://people.eku.edu/styere/Encrypt/JS-AES.html
+http://www.movable-type.co.uk/scripts/aes.html
+
+===============================================================================
+Client encryption
+
+Openssl
+http://stackoverflow.com/questions/10106771/encrypt-a-string-using-openssl-command-line
+
+Other crypto, not used
+https://pypi.python.org/pypi/pycrypto

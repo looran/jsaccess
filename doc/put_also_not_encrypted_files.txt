@@ -1,0 +1,21 @@
+jsaccess demo file (not encrypted)
+
+Sometimes you want to store files unencrypted
+* because they already are PGP encrypted / signed
+* because they are really big and it would take ages to decrypt
+
+Unencrypted files will be shown in the web page file list with a
+(c) after their name.
+
+
+To a new unencrypted file to download:
+
+$ jstore add-nocrypt Makefile 
+Using store "/home/user/code/laurent-tools/jsaccess/jsa/store"
+Enter encryption passphrase
+> jsa
+CREATED file /home/user/code/laurent-tools/jsaccess/jsa/store/af022cd820fdad6cbcac8e15ac565c639a47dab0/Makefile
+UPDATED file /home/user/code/laurent-tools/jsaccess/jsa/store/af022cd820fdad6cbcac8e15ac565c639a47dab0/index.txt
+
+$ jstore rset user@_host:/var/www/htdocs/jsa/    # Only the first time
+$ jstore push
