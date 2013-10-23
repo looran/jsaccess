@@ -1,7 +1,7 @@
 jsaccess - private web file sharing using client side crypto
 2013, Laurent Ghigonis <laurent@gouloum.fr>
 
-Store files encrypted with symetric key (AES-256) and it will seemlessly be
+Store files encrypted with symetric key (AES-256) and it will seamlessly be
 decrypted in the user web-browser on download.
 Files list cannot be accessed without the correct passphrase.
 It's possible to store files but not encrypt them with jsaccess, for example
@@ -38,7 +38,7 @@ jsa/store/af022cd820fdad6cbcac8e15ac565c639a47dab0
 CREATED file jsa/store/af022cd820fdad6cbcac8e15ac565c639a47dab0/065e18a7f246b800242a778a6e8dd07a3321dac6
 UPDATED file jsa/store/af022cd820fdad6cbcac8e15ac565c639a47dab0/index.txt
 
-[2] Syncronise the file store with you online server
+[2] Synchronise the file store with you online server
 
 On your machine:
 
