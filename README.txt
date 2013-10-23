@@ -32,10 +32,10 @@ Share a file
 [1] Add the file you want to share to the file store
 
 On your machine:
-$ jstore add myfile
-Then enter the passphase you want to use for encryption.
 
-It will tell you something like:
+$ jstore add myfile
+Enter encryption passphrase
+> my_encryption_passphrase
 jsa/store/af022cd820fdad6cbcac8e15ac565c639a47dab0
 CREATED file jsa/store/af022cd820fdad6cbcac8e15ac565c639a47dab0/065e18a7f246b800242a778a6e8dd07a3321dac6
 UPDATED file jsa/store/af022cd820fdad6cbcac8e15ac565c639a47dab0/index.txt
