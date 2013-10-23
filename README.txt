@@ -1,10 +1,12 @@
 jsaccess - private web file sharing using client side crypto
 2013, Laurent Ghigonis <laurent@gouloum.fr>
 
-Store files encrypted with symetric key (AES-256) and it will seemlessly be
+jsaccess allows the secure sharing of data hosted publicly on an http server without htaccess nor server side code.
+
+It stores files encrypted with symetric key (AES-256) and it will seemlessly be
 decrypted in the user web-browser on download.
 Files list cannot be accessed without the correct passphrase.
-It's possible to store files but not encrypt them with jsaccess, for example
+It's also possible to store files but not encrypt them with jsaccess, for example
 for files already PGP encrypted.
 No htaccess, https, or any server side configuration required, as it will just
 serve static pre-encrypted files.
